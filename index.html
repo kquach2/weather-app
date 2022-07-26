@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+    <script src="main.js" defer></script>
+    <div id="left">
+        <div id="description"></div>
+        <div id="city"></div>
+        <div id="temp"></div>
+        <div id="unit-toggle">Display °F</div>
+        <div id="search-box">
+           <input type="search" name="search" id="search" placeholder="Enter location">
+        </div>
+        <div id="error" >Location not found. Please make sure <br> your search follows one of the following formats: 
+            <br> "City", "City, State", or "City, Country".
+        </div>
+    </div>
+    <div id="right">
+        <div>
+            <div>Feels Like</div>
+            <div id="feels-like"></div>
+        </div>
+        <div>
+            <div>Humidity</div>
+            <div id="humidity"></div>
+        </div>
+        <div>
+            <div>Wind Speed</div>
+            <div id="wind-speed"></div>
+        </div>
+    </div>
+</body>
+</html>
