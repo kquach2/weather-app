@@ -6,7 +6,6 @@ import "./styles.css";
 let current;
 (async () => {
   current = await initialLoad();
-  console.log(current);
 })();
 
 const toggle = document.querySelector("#unit-toggle");

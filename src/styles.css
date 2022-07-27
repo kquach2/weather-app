@@ -8,6 +8,7 @@ body {
     background-image: url('b782d491b266c2d1ca92931679581d70.jpg');
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 #unit-toggle {
@@ -31,7 +32,6 @@ body {
 #left, #right {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 50px;
 }
 
